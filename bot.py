@@ -4,11 +4,11 @@ import datetime
 from requests import get,post
 from json import loads
 math 
-bot=Bot("bvfhfkisszhzhxrvocypxvzkukpcjbqq")
+bot=Bot("bvfhfk")
 list_message_seened = []
 time_reset = round(datetime.datetime.today().timestamp()) + 350
-guid_of_channel = "c0BI8if085bc0d6803ad3e11ba1ebca2"
-caption = "/storage/emulated/0/! Stiker/IMG_20221112_084317_184.jpg"
+guid_of_channel = "c0BI8ic0d6803ad3e11ba1ebca2"
+caption = "/storage/emulatediker/IMG_20221112_084317_184.jpg"
 while(2 > 1):
     try:
         chats_list:list = bot.get_updates_all_chats()
